@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:'Outfit'; */
+
+}
+
+:root{
+    --white:hsl(0, 0%, 100%);
+    --light-gray:hsl(212, 45%, 89%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+main{
+    border: 1px solid var(--white);
+    margin: 200px auto 20px auto;
+    max-width:370px;
+    background-color: var(--white);
+    border-radius: 15px;
+
+}
+
+.qr{
+    display: block;
+    width: 90%;
+    margin:20px auto 40px auto;
+    background-image: url("images/image-qr-code.png");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.title{
+    width: 80%;
+    font-weight: 700;
+    margin: 0 auto 30px auto;
+}
+
+.text{
+    width: 70%;
+    font-weight: 400;
+    margin: 0 auto 50px auto;
+    color: var(--grayish-blue);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
